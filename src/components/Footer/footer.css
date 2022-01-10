@@ -1,0 +1,17 @@
+.footer {
+    background-color: rgb(126, 189, 178);
+    padding-top: 2%;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.footer i {
+    margin-right: 0.6%;
+    margin-bottom: 0.5%;
+}

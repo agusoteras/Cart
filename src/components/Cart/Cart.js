@@ -20,20 +20,24 @@ return (
         <div className='cart'>
            
            <div className='count'>
-                 <h1>Tu Casa de Té</h1>
+                 <h1>Tu Casa De Té</h1>
                  
                  <h5 className='countCart' onClick={()=>viewCart()}>{count} <i class="fas fa-shopping-cart"></i> </h5> 
            </div>
             
                 <section className='cartBox show'>
-                
-                {cart.length === 0 ? ("") : (cart.map((item)=> 
-                         <ul> 
-                               <li key={item.id}>{item.name}<br></br> ${item.price}</li> <br></br> 
-                               <button onClick={()=>handlerDelete(item.id)}>Eliminar</button>
-                 
-                         </ul>   ))}
 
+                      <div className='cartContent'>
+                        
+                         {cart.length === 0 ? ("") : (cart.map((item)=> 
+                         <div> 
+                               <h6 key={item.id}>{item.name}<br></br> ${item.price}</h6> <br></br> 
+                               <button className='btn btn-dark' onClick={()=>handlerDelete(item.id)}>Eliminar</button>
+                 
+                         </div>   ))}
+
+                      </div>
+                
                 </section>
                    
 

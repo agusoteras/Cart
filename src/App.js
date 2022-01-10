@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import './App.css';
 import Cart from './components/Cart/Cart';
 import Products from './components/Products/Products';
+import Footer from './components/Footer/Footer';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 
 /* IMAGES */
@@ -32,6 +33,7 @@ function App() {
              <div className="App">
                   <Cart products={products} cart={cart} setCart={setCart} count={count} setCount={setCount}/>
                   <Products products={products} cart={cart} setCart={setCart} count={count} setCount={setCount}/>
+                  <Footer/>
              </div>
   );
 }
