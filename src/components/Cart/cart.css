@@ -1,0 +1,43 @@
+.cart {
+    top: 0%;
+    right: 2%;
+    background-color: rgb(84, 156, 132);
+    width: 100%;
+    height: 8rem;
+}
+.show {
+    display: none;
+}
+.count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.countCart {
+    position: relative;
+    align-self: flex-end;
+    margin-bottom: 2%;
+    margin-left: 90%;
+    margin-top: 1%;
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    display: inline;
+    position: absolute;
+    padding-top: 5%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+
+/* CARRITO DESPLEGABLE */ 
+
+.cartBox { 
+    background-color: brown;
+    position: absolute;
+    right: 1%;
+    width: 100px;
+    height: auto;
+    
+}

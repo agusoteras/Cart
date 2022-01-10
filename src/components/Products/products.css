@@ -1,0 +1,40 @@
+.products {
+    width: 100%;
+    height: auto;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(126, 189, 178);
+    flex-wrap: wrap;
+}
+.articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    background-color: beige;
+    margin: auto;
+    margin-top: 2%;
+    font-family: 'Poppins', sans-serif;
+}
+.articles img {
+    height: auto;
+    width: 80%;
+    margin-top: 5%;
+}
+.articles h4 {
+    padding: 0%;
+    margin-bottom: 0%;
+    margin-top: 1.5%;
+}
+.articles h5 {
+    padding: 0%;
+    margin-top: 0%;
+}
+.articles button {
+    margin-bottom: 5%;
+    font-weight: lighter;
+    
+}
